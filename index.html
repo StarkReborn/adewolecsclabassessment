@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adejokun Victor Adewole — COS 106 Portfolio</title>
+  <meta name="description" content="Academic portfolio of Adejokun Victor Adewole, B.Sc. Computer Science student at Miva Open University. Frontend development, AI, and software engineering.">
+  <meta name="author" content="Adejokun Victor Adewole">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body class="page-home">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="index.html" aria-label="StarkReborn — home">
+        <span class="brand__mark" aria-hidden="true">SR</span>
+        <span class="brand__text">StarkReborn</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__label">Menu</span>
+      </button>
+      <nav id="primary-nav" class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="planner.html">Planner</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero__grid">
+        <div class="hero__text">
+          <p class="hero__eyebrow">COS 106 · Portfolio · Miva Open University</p>
+          <h1 id="hero-heading" class="hero__title">
+            <span>Adejokun Victor</span>
+            <span class="hero__title-accent">Adewole</span>
+            <span class="hero__title-tail">builds interfaces that respect attention.</span>
+          </h1>
+          <p class="hero__lede">
+            Computer Science undergraduate at <strong>Miva Open University</strong>,
+            based in Lagos. I study how software is reasoned about — then I write
+            the frontend that makes the reasoning usable.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="projects.html">See the project index</a>
+            <a class="btn btn--ghost" href="about.html">Read the longer version</a>
+          </div>
+        </div>
+          <figure class="hero__portrait">
+  <img
+    src="./images/profile.jpg"
+    alt="Adejokun Victor Adewole wearing a black formal suit"
+    width="800"
+    height="1000"
+  >
+  <figcaption>
+    <span class="hero__caption-line">Adejokun Victor Adewole</span>
+    <span class="hero__caption-meta">B.Sc. Computer Science · in progress</span>
+  </figcaption>
+</figure>
+      </div>
+    </section>
+
+    <section class="statement" aria-labelledby="statement-heading">
+      <div class="statement__inner">
+        <h2 id="statement-heading" class="statement__heading">Short biography</h2>
+        <p class="statement__body">
+          I am an undergraduate student of Computer Science at Miva Open University.
+          My interest is in the seam between design and engineering: understanding
+          what a product needs to say, then building the small, reliable pieces of
+          HTML, CSS, and JavaScript that let it say that clearly. I write frontend
+          code in React and TypeScript, prototype in Tailwind, and spend an unusual
+          amount of time reading specifications.
+        </p>
+        <p class="statement__body">
+          The projects on this site are presented as they are — student work, described
+          modestly, without invented users, metrics, or awards. Where something is
+          unfinished, I say so.
+        </p>
+        <ul class="statement__skills" aria-label="Selected technical skills">
+          <li><span>HTML</span></li>
+          <li><span>CSS</span></li>
+          <li><span>JavaScript</span></li>
+          <li><span>React</span></li>
+          <li><span>TypeScript</span></li>
+          <li><span>Tailwind CSS</span></li>
+          <li><span>Vue</span></li>
+          <li><span>Git</span></li>
+          <li><span>Prompt engineering</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="featured" aria-labelledby="featured-heading">
+      <header class="section-header">
+        <h2 id="featured-heading">Featured projects</h2>
+        <a class="section-header__link" href="projects.html">Full project index →</a>
+      </header>
+
+      <div class="featured__grid">
+        <article class="featured-card featured-card--tall">
+          <p class="featured-card__kicker">Concept · 2024</p>
+          <h3 class="featured-card__title">AdeHair</h3>
+          <p class="featured-card__desc">
+            A hairstyle booking prototype that explores how small vendors can publish
+            a schedule without adopting a heavy management system.
+          </p>
+          <a class="featured-card__link" href="projects.html#adehair">Read the case study</a>
+        </article>
+
+        <article class="featured-card">
+          <p class="featured-card__kicker">Interface study · 2024</p>
+          <h3 class="featured-card__title">Zionix</h3>
+          <p class="featured-card__desc">
+            A frontend experiment in calm, low-chrome navigation for a media-reading
+            interface.
+          </p>
+          <a class="featured-card__link" href="projects.html#zionix">Read the case study</a>
+        </article>
+
+        <article class="featured-card">
+          <p class="featured-card__kicker">Frontend build · 2025</p>
+          <h3 class="featured-card__title">Citicare</h3>
+          <p class="featured-card__desc">
+            A small interface for surfacing clinic information in plain language,
+            designed for slow connections.
+          </p>
+          <a class="featured-card__link" href="projects.html#citicare">Read the case study</a>
+        </article>
+      </div>
+    </section>
+
+    <aside class="cta-band" aria-labelledby="cta-heading">
+      <div class="cta-band__inner">
+        <h2 id="cta-heading">Try the academic planner</h2>
+        <p>
+          A working task manager built in vanilla JavaScript. Add a task, mark it
+          complete, delete it — everything is saved in this browser via
+          <code>localStorage</code>. No account, no server, no tracking.
+        </p>
+        <a class="btn btn--primary" href="planner.html">Open the planner</a>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="site-footer__col">
+        <p class="site-footer__brand">Adejokun Victor Adewole · StarkReborn</p>
+        <p class="site-footer__note">
+          COS 106 portfolio. Built with plain HTML, CSS, and JavaScript.
+        </p>
+      </div>
+      <div class="site-footer__col">
+        <h2 class="site-footer__heading">Pages</h2>
+        <ul class="site-footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="planner.html">Planner</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="site-footer__col">
+        <h2 class="site-footer__heading">Elsewhere</h2>
+        <ul class="site-footer__links">
+          <li><a href="mailto:adejokunvictor@gmail.com">adejokunvictor@gmail.com</a></li>
+          <li><a href="https://github.com/starkeborn" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.miva.university/" rel="noopener">Miva Open University</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="site-footer__legal"> &copy; <span id="year">2026</span> Adejokun Victor Adewole. All rights reserved.
+    </p>
+  </footer>
+</body>
+</html>
